@@ -11,6 +11,7 @@ class User
     @id = id
   end
 
+  # インスタンスを再構築
   def rebuild_user(id:, name:)
     @id = id
     @name = name
